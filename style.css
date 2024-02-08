@@ -130,7 +130,7 @@ div {
 
 .container2 {
   height: 50%;
-  margin: 5px 0;
+  margin: 0px 0;
   display: flex;
 }
 
@@ -163,16 +163,24 @@ div {
 
 .box2 {
   width: 50%;
+  background-color:peachpuff;
+  border:4px solid salmon;
 }
 
 .box3 {
   width: 15%;
+  background-color:peachpuff;
+  border:4px solid salmon;
 }
 
 .box4 {
   width: 50%;
+  background-color:peachpuff;
+  border:4px solid salmon;
 }
 
 .box5 {
   height: calc(45% + 5px);
+  background-color:peachpuff;
+  border:4px solid salmon;
 }
