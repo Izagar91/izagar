@@ -114,6 +114,8 @@ div {
   flex-direction: column;
   justify-content: space-around;
   padding: 10px;
+  background-color:lightblue;
+  border:4px solid blue;
 }
 
 .container1, .container3 {
@@ -126,24 +128,16 @@ div {
   justify-content: space-between;
 }
 
-.box1 {
-  width: 30%;
-  display: flex;
-  padding: 10px;
-}
-
-.box2 {
-  width: 50%;
-}
-
 .container2 {
   height: 50%;
   margin: 5px 0;
   display: flex;
 }
 
-.box4 {
-  width: 50%;
+.container3 {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container4 {
@@ -154,21 +148,31 @@ div {
   padding-left: 5px;
 }
 
-.box5 {
-  height: calc(45% + 5px);
+.container2, .container4 {
+  border: none;
+  background: none;
 }
 
-.container3 {
-  padding: 5px;
+.box1 {
+  width: 30%;
   display: flex;
-  justify-content: space-between;
+  padding: 10px;
+  background-color:peachpuff;
+  border:4px solid salmon;
+}
+
+.box2 {
+  width: 50%;
 }
 
 .box3 {
   width: 15%;
 }
 
-.container2, .container4 {
-  border: none;
-  background: none;
+.box4 {
+  width: 50%;
+}
+
+.box5 {
+  height: calc(45% + 5px);
 }
