@@ -8,7 +8,7 @@ body {
   padding:16px;
   border:4px solid blue;
   margin:8px;
-  display:flex;
+  display:flex block;
   clear:both;
 }
 
