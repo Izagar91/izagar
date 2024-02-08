@@ -9,6 +9,7 @@ body {
   border:4px solid blue;
   margin:8px;
   display:flex;
+  clear:both;
 }
 
 .item{
