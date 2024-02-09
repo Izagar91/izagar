@@ -126,18 +126,21 @@ div {
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  border:0px;
 }
 
 .container2 {
   height: 50%;
   margin: 0px 0;
   display: flex;
+  border:0px;
 }
 
 .container3 {
   padding: 5px;
   display: flex;
   justify-content: space-between;
+  border:0px;
 }
 
 .container4 {
@@ -146,6 +149,7 @@ div {
   flex-direction: column;
   justify-content: space-between;
   padding-left: 5px;
+  border:0px;
 }
 
 .container2, .container4 {
