@@ -10,12 +10,37 @@ background: linear-gradient(180deg, rgba(89,12,12,1) 0%, rgba(175,20,20,1) 30%, 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Gaming News Network</title>
 
+  <script>
+
+    /* Slideshow */
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-opacity-off";
+}
+</script>
+
   <style>
     
     body{
       margin:0;
       font-family:'tahoma';
       background-color:lightgray;
+      
     }
 
     .main-content{
@@ -33,7 +58,7 @@ background: linear-gradient(180deg, rgba(89,12,12,1) 0%, rgba(175,20,20,1) 30%, 
 
     .header-content{
       /* background-color:white; */
-      border:solid 1px gray;
+      /* border:solid 1px gray; */
       width:80%;
       margin:auto;
       height:100px;
@@ -225,12 +250,41 @@ background: linear-gradient(180deg, rgba(89,12,12,1) 0%, rgba(175,20,20,1) 30%, 
   </nav>
 
 </div>
-<div class="main-content">
 
-  <div class="header-ad-block"></div>
+<div class="header-ad-block"></div>
+  
+<div class="main-content">
 
   <div class="content">
     <div class="content-left">
+
+      <!-- Slideshow-->
+
+      <div class="w3-container">
+  <h2>Slideshow Indicators</h2>
+  <p>Using images to indicate how many slides there are in the slideshow, and highlight the image the user is currently viewing.</p>
+</div>
+
+<div class="w3-content" style="max-width:95%">
+  <img class="mySlides" src="img_nature_wide.jpg" style="width:100%;display:none">
+  <img class="mySlides" src="img_snow_wide.jpg" style="width:100%">
+  <img class="mySlides" src="img_mountains_wide.jpg" style="width:100%;display:none">
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="img_nature_wide.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="img_snow_wide.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+    </div>
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="img_mountains_wide.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
+
+       <!-- End Slideshow-->
+       <!-- News Content -->
 
       <h1>News</h1>
 
@@ -278,13 +332,19 @@ background: linear-gradient(180deg, rgba(89,12,12,1) 0%, rgba(175,20,20,1) 30%, 
         <div class="news-footer">Posted by: Sara Brown | Posted 02/09/24 | Filed Under: Tech News
         </div>
       </div>
+
+       <!-- End News Content -->
       
     </div>
     
     <div class="content-right">
+
+       <!-- Right Navigation -->
       <div class="content-right-news-box">
         <!-- img here -->
         <h3>Diablo III Tips and Tricks</h3>
+
+      <!--End Right Navigation -->
       </div>
       
     </div>
