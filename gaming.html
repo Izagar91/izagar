@@ -85,7 +85,7 @@ function showDivs(n) {
     
     nav ul li {
       position:relative;
-      margin:0 20px 0 0;
+      margin:0 5px 0 0; /*edit as needed*/
       float:left;
       display:inline-block;
     }
@@ -100,7 +100,11 @@ function showDivs(n) {
       color:white;
       text-decoration:none;
       border-radius: 5px;
-      background-color: rgba(89, 12, 12, 0.75); 
+    }
+
+    .nav-main-a {
+      background-color: rgba(89, 12, 12, 0.75);
+      border-radius: 5px;
     }
     
     nav ul li a:hover {
@@ -217,22 +221,22 @@ function showDivs(n) {
   <nav>
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#">Nintendo</a>
+      <li><a href="#" class=".nav-main-a">Nintendo</a>
         <ul>
           <li><a href="#">Nintendo News</a></li>
           <li><a href="#">Nintendo Games</a></li>
         </ul>
-      <li><a href="#">Playstation</a>
+      <li><a href="#" class=".nav-main-a">Playstation</a>
          <ul>
           <li><a href="#">PlayStation News</a></li>
           <li><a href="#">Playstation Games</a></li>
         </ul>
-      <li><a href="#">Xbox</a>
+      <li><a href="#" class=".nav-main-a">Xbox</a>
         <ul>
           <li><a href="#">Xbox News</a></li>
           <li><a href="#">Xbox Games</a></li>
         </ul>
-      <li><a href="#">PC</a>
+      <li><a href="#" class=".nav-main-a">PC</a>
         <ul>
           <li><a href="#">PC News</a></li>
           <li><a href="#">PC Games</a></li>
