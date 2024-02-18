@@ -1,0 +1,24 @@
+<!-- This will be like an old IGN site. The design is in Discord. Make some "New Articles" as a test. -->
+
+<!-- Gradient for the banner. Made at: https://cssgradient.io/
+background: rgb(89,12,12);
+background: linear-gradient(180deg, rgba(89,12,12,1) 0%, rgba(175,20,20,1) 30%, rgba(224,69,69,1) 100%);  -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Gaming News Network</title>
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+<!-- End Fonts -->
+</head>
+
+<body>
+
+
+
+</body>
+</html>
