@@ -218,6 +218,23 @@ function showDivs(n) {
       display: table-row;
     }
 
+    .more-articles{
+      background-color:#3a3939;
+      border-left:solid 7px rgba(224,69,69,1);
+    }
+
+    .more-articles-arrow-right{
+      border-color: transparent transparent transparent #3a3939;
+      border-style: solid;
+      border-width: 14px 0 14px 14px;
+      height: 0;
+      left: 0;
+      position: relative;
+      top: 0;
+      width: 0;
+      float: right;
+    }
+
     .content-right-news-box{
       background-color:gray;
       border:solid 1px darkgray;
@@ -389,6 +406,8 @@ function showDivs(n) {
       </div>
 
        <!-- End News Content -->
+
+      <div id="more-articles"><span class="more-articles-arrow-right"></span><a href="#">See All Articles »</a></div>
       
     </div>
     
@@ -408,6 +427,16 @@ function showDivs(n) {
         <li><a href="#">New Superman Comic</a></li>
         <li><a href="#">New Season of Hell's Kitchen</a></li>
         <li><a href="#">Intel releases new CPU</a></li>
+      </ul>
+      </div>
+
+      <div class="content-right-header"><h4>Top Games Out Now!</h4></div>
+      <div class="content-right-list-box">
+      <ul>
+        <li><a href="#">Legend of Zelda: Tears of the Kingdom</a></li>
+        <li><a href="#">Elden Ring</a></li>
+        <li><a href="#">Final Fantasy XVI</a></li>
+        <li><a href="#">Street Fighter 6</a></li>
       </ul>
       </div>
 
