@@ -14,9 +14,18 @@
         justify-content: space-between;
       }
 
+      .flex-container-header{
+        background-color:#1f2937;
+        padding:16px;
+        /* border:4px solid blue;
+        margin:8px; */
+        display:flex;
+        justify-content: space-between;
+      }
+
       .flex-item{
-        background-color:peachpuff;
-        border:4px solid salmon;
+        /* background-color:peachpuff;
+        border:4px solid salmon; */
         height:48px;
         flex:1;
         padding:4px;
@@ -40,20 +49,29 @@
       }
 
       .flex-item-links{
-        background-color:lightgreen;
-        border:4px solid green;
+        /* background-color:lightgreen;
+        border:4px solid green; */
         padding:4px;
       }
 
       .flex-item-2, .flex-footer-content{
-        background-color:peachpuff;
-        border:4px solid salmon;
+        /* background-color:peachpuff;
+        border:4px solid salmon; */
         flex:1;
         padding:4px;
       }
 
       .information-header-text{
         font:36px extra-bold #1f2937;
+      }
+
+      .flex-container-information{
+        background-color:white;
+        padding:16px;
+        /* border:4px solid blue;
+        margin:8px; */
+        display:flex;
+        justify-content: space-between;
       }
 
       .flex-container-quote{
@@ -63,6 +81,7 @@
         margin:8px; */
         display:flex;
         /* justify-content: space-between; */
+        text-align:center;
       }
 
       .flex-container-quote p{
@@ -92,7 +111,7 @@
 
   <body>
 
-    <div class="flex-container">
+    <div class="flex-container-header">
       <div class="flex-item flex-item-logo">Header Logo</div>
       <div class="flex-item flex-item-container">
         <div class="flex-item-links">header link one</div>
@@ -114,7 +133,7 @@
       </div>
     </div>
 
-    <div class="flex-container">
+    <div class="flex-container-information">
       <div class="flex-item2 information-header-text">Some random information.</div>
       <div class="flex-item2">
         <img src="https://i.imgur.com/DRciR0h.jpg" style="width:25%;" />
@@ -162,7 +181,7 @@
       </div>
     </div>
 
-    <div class="flex-container">
+    <div class="flex-copyright-container">
       <div class="flex-item2">
         Copyright &copy; Izagar 2024
       </div>
