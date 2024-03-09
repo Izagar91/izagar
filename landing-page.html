@@ -198,11 +198,13 @@
   <body>
 
     <div class="flex-container-header">
-      <div class="flex-item"><p class="flex-item-logo">Header Logo</p></div>
-      <div class="flex-item flex-item-container">
-        <div class="flex-item-links">header link one</div>
-        <div class="flex-item-links">header link two</div>
-        <div class="flex-item-links">header link three</div>
+      <div class="flex-container-header-box"></div>
+        <div class="flex-item"><p class="flex-item-logo">Header Logo</p></div>
+        <div class="flex-item flex-item-container">
+          <div class="flex-item-links">header link one</div>
+          <div class="flex-item-links">header link two</div>
+          <div class="flex-item-links">header link three</div>
+        </div>
       </div>
     </div>
 
@@ -222,7 +224,7 @@
     </div>
 
     <div class="flex-container-information">
-      <div class="information-header-text"><h2>Some random information.</h2></div>
+      <div class="information-header-text"><span style="width:65%; margin:0 auto;"><h2>Some random information.</h2></span></div>
       <div class="information-header-img">
         <div class="flex-item2">
           <img src="https://i.imgur.com/8rGoB4P.jpg" style="width:100%;" />
@@ -255,17 +257,18 @@
     </div>
 
     <div class="flex-container-calltoaction">
-      <div class="flex-item2 flex-item-container-calltoaction">
-        <div class="flex-footer-content-left">
-          <h3>Call to action! It's time!</h3>
+      <div class="flex-item2">
+          <div class="flex-item-container-calltoaction">
+          <div class="flex-footer-content-left">
+            <h3>Call to action! It's time!</h3>
 
-          <p>Sign up for our product by clicking that button over there!</p>
+            <p>Sign up for our product by clicking that button over there!</p>
 
+          </div>
+          <div class="flex-footer-content-right">
+            <button class="button-calltoaction">Sign up!</button><!-- For now -->
+          </div>
         </div>
-        <div class="flex-footer-content-right">
-          <button class="button-calltoaction">Sign up!</button><!-- For now -->
-        </div>
-
       </div>
     </div>
 
