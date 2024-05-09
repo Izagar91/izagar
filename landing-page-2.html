@@ -19,17 +19,18 @@
         /* display:flex; */
       }
 
+      .section{
+        margin:0 auto;
+        width:85%;
+        display:flex;
+      }
+
+
       /* Top Navigation Section */
 
       .navigation-container {
         margin:0 auto;
         width:100%;
-        display:flex;
-      }
-
-      .navigation-secondary-container {
-        margin:0 auto;
-        width:85%;
         display:flex;
       }
 
@@ -82,12 +83,6 @@
         display:flex;
       }
 
-      .information-secondary-container{
-        margin:0 auto;
-        width:85%;
-        display:flex;
-      }
-
       .information-header-text{
         font-size:36px;
         font-weight:extra-bold;
@@ -129,12 +124,6 @@
         background-color:#FFFFFF;
         display:flex;
         justify-content:center;
-      }
-
-      .calltoaction-secondary-container{
-        margin:0 auto;
-        width:85%;
-        display:flex;
       }
 
       .calltoaction-blue-container{
@@ -182,7 +171,7 @@
     <div class="main-container">
 
       <div class="navigation-container">
-        <div class="navigation-secondary-container">
+        <div class="section">
           <div class="navigation-item"><p>Header Logo</p></div>
         </div>
         <div class="navigation-item">
@@ -208,7 +197,7 @@
       </div>
 
       <div class="information-container">
-        <div class="information-secondary-container">
+        <div class="section">
           <div class="information-header-text">
             <span>Some random information.</span>
           </div>
@@ -238,16 +227,17 @@
       </div>
 
       <div class="quote-container">
-        <!-- Fix this later -->
-        <div style="width:95%; margin:0 auto;"><p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe 
-          people will actually read it. Who knows? All I know is that it looks nice.</p>
+        <div class="section">
+          <!-- Fix this later -->
+          <div style="width:95%; margin:0 auto;"><p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe 
+            people will actually read it. Who knows? All I know is that it looks nice.</p>
 
-        <p><div style="text-align:right;">- Thor, God of Thunder</div></p></div>
-
+          <p><div style="text-align:right;">- Thor, God of Thunder</div></p></div>
+        </div>
       </div>
 
       <div class="calltoaction-container">
-        <div class="calltoaction-secondary-container">
+        <div class="section">
           <div class="calltoaction-blue-container">
             <div class="calltoaction-blue-container-left">
               <h3>Call to action! It's time!</h3>
