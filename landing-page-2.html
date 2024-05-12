@@ -39,13 +39,21 @@
         vertical-align: middle;
       }
 
-      .navigation-item {
+      .navigation-item-left, .navigation-item-right {
         font-size:24px;
         color:#F9FAF8;
         display:flex;
         flex-direction: row;
         justify-content: space-evenly;
         padding:5px;
+      }
+
+      .navigation-item-left {
+        width:60%;
+      }
+
+      .navigation-item-right {
+        width:40%;
       }
 
       .navigation-item-links {
@@ -180,6 +188,8 @@
         background-color: #3882F6;
         border:solid 3px #E5E7EB;
         border-radius: 5px;
+        padding:5px;
+        color:#E5E7EB;
       }
 
       /* Footer */
@@ -209,9 +219,8 @@
 
       <div class="navigation-container">
         <div class="section">
-          <div class="navigation-item"><p>Header Logo</p></div>
-        </div>
-        <div class="navigation-item">
+          <div class="navigation-item-left"><p>Header Logo</p></div>
+          <div class="navigation-item-right">
           <div class="navigation-item-links">Header Link One</div>
           <div class="navigation-item-links">Header Link Two</div>
           <div class="navigation-item-links">Header Link Three</div>
