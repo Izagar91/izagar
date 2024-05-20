@@ -50,7 +50,7 @@
 
       .navigation-item-left {
         width:60%;
-        text-align:left;
+        justify-content: flex-start;
       }
 
       .navigation-item-right {
@@ -92,6 +92,16 @@
         font-size:48px;
         font-weight:bolder;
         color:#F9FAF8;
+      }
+
+      .image-container {
+      width: 50%;
+      text-align: center;
+      }
+
+      .image-container img {
+      width: 75%;
+      height: 100%;
       }
 
       /* Random Information Section */
@@ -247,7 +257,9 @@
             <button class="button">Sign up!</button>
           </div>
           <div class="header-info-container">
-            <div style="align-content: center;"><img src="https://i.imgur.com/DRciR0h.jpg" style="width:75%;" /></div>
+            <div class="image-container">
+              <img src="https://i.imgur.com/DRciR0h.jpg" />
+            </div>
           </div>
         </div>
       </div>
